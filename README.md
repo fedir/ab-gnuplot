@@ -7,11 +7,11 @@ Webserver bencmark using ab and gnuplot
 
 Go to the webfolder and generate the data sample
 
-  dd if=/dev/zero of=test100k.bin bs=102400 count=1
+    dd if=/dev/zero of=test100k.bin bs=102400 count=1
 
 ## Make tests
 
-  bash test100k.sh http://www.example.com/test100k.bin
+    bash test100k.sh http://www.example.com/test100k.bin
 
 ## Ressources
 
