@@ -1,7 +1,15 @@
 ab-gnuplot
 ==========
 
-Webserver bencmark using ab and gnuplot
+Webserver bencmark using ab and gnuplot.
+
+## Requirements 
+
+ab, gnuplot
+
+To install it on Debian/Ubuntu/Linux Mint :
+
+    apt-get install ab gnuplot
 
 ## Prepare data sample for further tests
 
