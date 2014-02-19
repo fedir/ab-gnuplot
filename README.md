@@ -1,7 +1,7 @@
 ab-gnuplot
 ==========
 
-Webserver bencmark using ab and gnuplot.
+Webserver bencmark using ab and gnuplot. Using proposed scripts, You could mesure how You webserver behaves in situations with different concurence. Logs, data statisitics and grapics are generated.
 
 ## Requirements 
 
