@@ -11,14 +11,19 @@ To install it on Debian/Ubuntu/Linux Mint :
 
     apt-get install ab gnuplot
 
+## Installation
+
+    git clone git@github.com:fedir/ab-gnuplot.git
+
 ## Prepare data sample for further tests
 
 Go to the webfolder and generate the data sample
 
     dd if=/dev/zero of=test100k.bin bs=102400 count=1
 
-## Make tests
+## Run
 
+    cd ab-gnuplot
     bash test100k.sh http://www.example.com/test100k.bin
 
 ## Ressources
